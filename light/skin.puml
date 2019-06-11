@@ -1,0 +1,74 @@
+!define BORDER_COLOR #3078b8
+!define ARROW_COLOR #3078b8
+!define BACKGROUND_COLOR #efefef
+!define BORDER_WIDTH 1
+
+skinparam Shadowing false
+skinparam dpi 150
+skinparam roundCorner 10
+skinparam ArrowColor ARROW_COLOR
+skinparam FontName  "Helvetica"
+skinparam backgroundColor #FFF
+
+skinparam class {
+  BorderColor BORDER_COLOR
+  BackgroundColor BACKGROUND_COLOR
+  AttributeFontSize 12
+  FontSize 14
+  BorderThickness BORDER_WIDTH
+}
+
+skinparam activity {
+  BackgroundColor BACKGROUND_COLOR  
+  BorderColor BORDER_COLOR
+  BarColor #3078b8
+  DiamondBorderColor BORDER_COLOR
+  DiamondBackgroundColor BACKGROUND_COLOR
+  BorderThickness BORDER_WIDTH
+  FontSize 12
+  StartColor #333
+  EndColor #333
+}
+
+skinparam node {
+  BackgroundColor BACKGROUND_COLOR  
+  BorderColor BORDER_COLOR
+}
+
+skinparam rectangle {
+  BorderColor BORDER_COLOR
+}
+
+skinparam component {
+  BackgroundColor BACKGROUND_COLOR  
+  BorderColor BORDER_COLOR
+}
+
+skinparam database {
+  BackgroundColor BACKGROUND_COLOR  
+  BorderColor BORDER_COLOR
+  BorderThickness BORDER_WIDTH
+}
+
+skinparam sequence {
+  Participant {
+    BackgroundColor BACKGROUND_COLOR 
+    BorderColor BORDER_COLOR
+    BorderThickness BORDER_WIDTH
+  }
+  Box {
+    BorderColor BORDER_COLOR
+  }
+  LifeLine {
+    BorderColor BORDER_COLOR
+  }
+  Group {
+    BorderColor BORDER_COLOR
+    BorderThickness BORDER_WIDTH
+  }
+}
+
+skinparam collections {
+  BackgroundColor BACKGROUND_COLOR  
+  BorderColor BORDER_COLOR
+}
