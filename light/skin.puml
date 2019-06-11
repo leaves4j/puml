@@ -1,3 +1,4 @@
+@startuml skin
 !define BORDER_COLOR #3078b8
 !define ARROW_COLOR #3078b8
 !define BACKGROUND_COLOR #efefef
@@ -72,3 +73,4 @@ skinparam collections {
   BackgroundColor BACKGROUND_COLOR  
   BorderColor BORDER_COLOR
 }
+@enduml
