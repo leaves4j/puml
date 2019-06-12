@@ -73,4 +73,14 @@ skinparam collections {
   BackgroundColor BACKGROUND_COLOR  
   BorderColor BORDER_COLOR
 }
+
+skinparam state {
+  BackgroundColor BACKGROUND_COLOR
+  BorderThickness BORDER_WIDTH
+  BorderColor BORDER_COLOR
+  FontSize 12
+  AttributeFontSize 10
+  StartColor #333
+  EndColor #333
+}
 @enduml
