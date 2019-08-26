@@ -83,4 +83,7 @@ skinparam state {
   StartColor #333
   EndColor #333
 }
+skinparam archimate {
+  BorderColor BORDER_COLOR
+}
 @enduml
