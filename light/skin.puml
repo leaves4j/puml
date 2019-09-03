@@ -5,7 +5,6 @@
 !define BORDER_WIDTH 1
 
 skinparam Shadowing false
-skinparam dpi 150
 skinparam roundCorner 10
 skinparam ArrowColor ARROW_COLOR
 skinparam FontName  "Helvetica"
