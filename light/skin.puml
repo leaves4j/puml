@@ -82,8 +82,17 @@ skinparam state {
   StartColor #333
   EndColor #333
 }
+
 skinparam archimate {
   BorderColor BORDER_COLOR
+}
+
+skinparam object {
+  BorderColor BORDER_COLOR
+  BackgroundColor BACKGROUND_COLOR
+  AttributeFontSize 12
+  FontSize 14
+  BorderThickness BORDER_WIDTH
 }
 
 <style>
