@@ -95,14 +95,4 @@ skinparam object {
   BorderThickness BORDER_WIDTH
 }
 
-<style>
-mindmapDiagram{
-  node {
-    FontSize 14
-    LineColor BORDER_COLOR
-	  BackGroundColor BACKGROUND_COLOR
-    LineThickness BORDER_WIDTH
-  }
-}
-</style>
 @enduml
