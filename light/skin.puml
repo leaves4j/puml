@@ -85,4 +85,15 @@ skinparam state {
 skinparam archimate {
   BorderColor BORDER_COLOR
 }
+
+<style>
+mindmapDiagram{
+  node {
+    FontSize 14
+    LineColor BORDER_COLOR
+	  BackGroundColor BACKGROUND_COLOR
+    LineThickness BORDER_WIDTH
+  }
+}
+</style>
 @enduml
