@@ -95,4 +95,9 @@ skinparam object {
   BorderThickness BORDER_WIDTH
 }
 
+skinparam actor {
+  BackgroundColor BACKGROUND_COLOR
+  BorderColor BORDER_COLOR
+  BorderThickness BORDER_WIDTH
+}
 @enduml
