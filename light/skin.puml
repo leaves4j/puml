@@ -26,8 +26,8 @@ skinparam activity {
   DiamondBackgroundColor BACKGROUND_COLOR
   BorderThickness BORDER_WIDTH
   FontSize 12
-  StartColor #333
-  EndColor #333
+  StartColor BORDER_COLOR
+  EndColor BORDER_COLOR
 }
 
 skinparam node {
@@ -79,8 +79,8 @@ skinparam state {
   BorderColor BORDER_COLOR
   FontSize 12
   AttributeFontSize 10
-  StartColor #333
-  EndColor #333
+  StartColor BORDER_COLOR
+  EndColor BORDER_COLOR
 }
 
 skinparam archimate {
