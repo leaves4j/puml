@@ -1,13 +1,13 @@
-@startuml skin
 !define BORDER_COLOR #3078b8
 !define ARROW_COLOR #3078b8
 !define BACKGROUND_COLOR #efefef
 !define BORDER_WIDTH 1
+!define FONT_NAME "PingFang SC, Helvetica, Tahoma, Arial, Hiragino Sans GB, Heiti SC, Microsoft YaHei, WenQuanYi Micro Hei"
 
 skinparam Shadowing false
 skinparam roundCorner 10
 skinparam ArrowColor ARROW_COLOR
-skinparam FontName  "Helvetica"
+skinparam FontName FONT_NAME
 skinparam backgroundColor #FFF
 
 skinparam class {
@@ -16,6 +16,7 @@ skinparam class {
   AttributeFontSize 12
   FontSize 14
   BorderThickness BORDER_WIDTH
+  FontName FONT_NAME
 }
 
 skinparam activity {
@@ -28,26 +29,31 @@ skinparam activity {
   FontSize 12
   StartColor BORDER_COLOR
   EndColor BORDER_COLOR
+  FontName FONT_NAME
 }
 
 skinparam node {
   BackgroundColor BACKGROUND_COLOR  
   BorderColor BORDER_COLOR
+  FontName FONT_NAME
 }
 
 skinparam rectangle {
   BorderColor BORDER_COLOR
+  FontName FONT_NAME
 }
 
 skinparam component {
   BackgroundColor BACKGROUND_COLOR  
   BorderColor BORDER_COLOR
+  FontName FONT_NAME
 }
 
 skinparam database {
   BackgroundColor BACKGROUND_COLOR  
   BorderColor BORDER_COLOR
   BorderThickness BORDER_WIDTH
+  FontName FONT_NAME
 }
 
 skinparam sequence {
@@ -55,22 +61,27 @@ skinparam sequence {
     BackgroundColor BACKGROUND_COLOR 
     BorderColor BORDER_COLOR
     BorderThickness BORDER_WIDTH
+    FontName FONT_NAME
   }
   Box {
     BorderColor BORDER_COLOR
+    FontName FONT_NAME
   }
   LifeLine {
     BorderColor BORDER_COLOR
+    FontName FONT_NAME
   }
   Group {
     BorderColor BORDER_COLOR
     BorderThickness BORDER_WIDTH
+    FontName FONT_NAME
   }
 }
 
 skinparam collections {
   BackgroundColor BACKGROUND_COLOR  
   BorderColor BORDER_COLOR
+  FontName FONT_NAME
 }
 
 skinparam state {
@@ -81,10 +92,12 @@ skinparam state {
   AttributeFontSize 10
   StartColor BORDER_COLOR
   EndColor BORDER_COLOR
+  FontName FONT_NAME
 }
 
 skinparam archimate {
   BorderColor BORDER_COLOR
+  FontName FONT_NAME
 }
 
 skinparam object {
@@ -93,11 +106,20 @@ skinparam object {
   AttributeFontSize 12
   FontSize 14
   BorderThickness BORDER_WIDTH
+  FontName FONT_NAME
 }
 
 skinparam actor {
   BackgroundColor BACKGROUND_COLOR
   BorderColor BORDER_COLOR
   BorderThickness BORDER_WIDTH
+  FontName FONT_NAME
+
 }
-@enduml
+skinparam legend {
+  FontSize 12
+  BackgroundColor BACKGROUND_COLOR
+  BorderThickness BORDER_WIDTH
+  BorderColor BORDER_COLOR
+  FontName FONT_NAME
+}
