@@ -123,3 +123,10 @@ skinparam legend {
   BorderColor BORDER_COLOR
   FontName FONT_NAME
 }
+skinparam partition {
+  BorderColor BORDER_COLOR
+  AttributeFontSize 12
+  FontSize 14
+  BorderThickness BORDER_WIDTH
+  FontName FONT_NAME
+}
