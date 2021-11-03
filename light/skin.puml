@@ -41,12 +41,15 @@ skinparam node {
 skinparam rectangle {
   BorderColor BORDER_COLOR
   FontName FONT_NAME
+  BackgroundColor BACKGROUND_COLOR
+  BorderThickness BORDER_WIDTH
 }
 
 skinparam component {
   BackgroundColor BACKGROUND_COLOR  
   BorderColor BORDER_COLOR
   FontName FONT_NAME
+  BorderThickness BORDER_WIDTH
 }
 
 skinparam database {
